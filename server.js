@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 
 const emailMisspelled = require("email-misspelled");
-const emailChecker = emailMisspelled.default({ domains: emailMisspelled.top100 });
+const emailChecker = emailMisspelled.default({ domains: emailMisspelled.all });
 
 app.set("port", process.env.PORT || 4000);
 
