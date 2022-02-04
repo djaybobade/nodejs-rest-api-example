@@ -10,6 +10,7 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "email-misspelled": "^3.3.8",
     "express": "^4.17.1"
   }
 }
